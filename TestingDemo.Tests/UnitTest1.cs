@@ -103,6 +103,8 @@ public class StringUtilsTests
         Assert.Multiple(() => {
             Assert.That(StringUtils.PoliczSamogloski("Ala ma kota"), Is.EqualTo(5));
             Assert.That(StringUtils.PoliczSamogloski("xyz"), Is.EqualTo(1));
+            Assert.That(StringUtils.PoliczSamogloski("mój stół"), Is.EqualTo(2)); // 'ó' i 'ó'
+            Assert.That(StringUtils.PoliczSamogloski("Ósmy"), Is.EqualTo(2)); // 'Ó' i 'y'
         });
     }
 

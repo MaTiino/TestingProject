@@ -17,7 +17,7 @@ public static class StringUtils
         if (string.IsNullOrEmpty(tekst))
             return 0;
 
-        char[] samogloski = { 'a', 'e', 'i', 'o', 'u', 'y', 'ą', 'ę', 'A', 'E', 'I', 'O', 'U', 'Y', 'Ą', 'Ę' };
+        char[] samogloski = { 'a', 'e', 'i', 'o', 'u', 'y', 'ą', 'ę', 'ó', 'A', 'E', 'I', 'O', 'U', 'Y', 'Ą', 'Ę', 'Ó' };
         return tekst.Count(c => samogloski.Contains(c));
     }
 
