@@ -16,13 +16,13 @@ Aplikacja Windows Forms zawierająca dwie główne funkcjonalności: kalkulator 
 - Obsługa błędów (np. dzielenie przez zero)
 
 ### Operacje na Tekście
-- Liczenie samogłosek w tekście (włącznie z polskimi znakami: ą, ę)
-- Odwracanie tekstu (z automatycznym skróceniem długich wyników)
+- Liczenie samogłosek w tekście (włącznie z polskimi znakami: ą, ę, ó, y; wielkość liter nie ma znaczenia)
+- Odwracanie tekstu (z automatycznym skróceniem długich wyników do 100 znaków i dodaniem „...”, jeśli wynik jest dłuższy)
 - Liczenie słów w tekście
 - Liczenie znaków w tekście
 - Sprawdzanie czy tekst jest palindromem
 - Ograniczenie długości wprowadzanego tekstu do 1000 znaków
-- Automatyczne skracanie długich wyników (powyżej 100 znaków)
+- Automatyczne skracanie długich wyników (powyżej 100 znaków, z dodaniem „...”)
 
 ## Interfejs Użytkownika
 
@@ -69,7 +69,7 @@ TestingDemo/
 Aplikacja zawiera testy jednostkowe sprawdzające:
 - Poprawność operacji matematycznych
 - Działanie operacji na tekście
-- Obsługę przypadków brzegowych
+- Poprawność obsługi polskich znaków diakrytycznych (w tym samogłoski „ó”)
 - Walidację danych wejściowych
 - Ograniczenia długości tekstu
 
